@@ -4,7 +4,7 @@
   "description": "咸鱼资源静态网站",
   "main": "index.html",
   "scripts": {
-    "deploy": "wrangler pages deploy . --project-name xianyuziyuan --commit-dirty=true"
+    "deploy": "wrangler pages deploy . --project-name xianyuziyuan-public --commit-dirty=true"
   },
   "keywords": [
     "static",
