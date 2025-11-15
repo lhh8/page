@@ -2,5 +2,6 @@
   "build_command": "",
   "build_output_dir": ".",
   "install_command": "",
-  "deployment_target": "pages"
+  "deployment_target": "pages",
+  "deploy_command": "npx wrangler pages deploy ."
 }
