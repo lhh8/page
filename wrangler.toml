@@ -1,0 +1,9 @@
+name = "xianyuziyuan"
+compatibility_date = "2023-11-15"
+pages_build_output_dir = "."
+
+[env.production]
+name = "xianyuziyuan"
+
+[env.preview]
+name = "xianyuziyuan-preview"
