@@ -1,0 +1,11 @@
+{
+  "name": "xianyuziyuan-page",
+  "version": "1.0.0",
+  "description": "咸鱼资源永久发布页",
+  "scripts": {
+    "deploy": "npx wrangler pages deploy ."
+  },
+  "devDependencies": {
+    "wrangler": "^4.47.0"
+  }
+}
