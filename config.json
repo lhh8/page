@@ -1,0 +1,32 @@
+{
+  "siteInfo": {
+    "title": "咸鱼资源永久发布页",
+    "bookmarkTip": "请 Ctrl+D 收藏本页到浏览器收藏夹"
+  },
+  "addresses": [
+    {
+      "title": "当前有效地址1",
+      "url": "https://fish.keaini.sbs"
+    },
+    {
+      "title": "防止失联",
+      "url": "https://sway.cloud.microsoft/myDA4aErjABP71rG"
+    },
+    {
+      "title": "Telegram",
+      "url": "https://t.me/+6Al2tG0fu6MwNGVl"
+    }
+  ],
+  "accessTips": {
+    "title": "访问提示：",
+    "tips": [
+      "推荐使用 Chrome、Edge、Firefox 浏览器",
+      "如无法访问，请尝试刷新页面或清除浏览器缓存",
+      "备用地址会定期更新，请收藏本页获取最新信息",
+      "关注我们的 Telegram 频道获取最新地址"
+    ]
+  },
+  "footer": {
+    "copyright": "咸鱼资源. All Rights Reserved"
+  }
+}
