@@ -1,8 +1,0 @@
-# 忽略不需要上传到静态资源的文件
-_worker.js
-wrangler.jsonc
-.git
-.gitignore
-.vscode
-node_modules
-*.log

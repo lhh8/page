@@ -1,7 +1,0 @@
-{
-  "build_command": "",
-  "build_output_dir": ".",
-  "install_command": "",
-  "deployment_target": "pages",
-  "deploy_command": "npx wrangler pages deploy . --project-name xianyuziyuan --commit-dirty=true"
-}
