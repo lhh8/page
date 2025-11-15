@@ -30,13 +30,17 @@
 ### 方法一：使用 GitHub Actions 自动部署（推荐）
 
 1. 将此项目推送到您的 GitHub 仓库
-2. 在 Cloudflare 控制台中获取您的 API Token：
+2. 在 Cloudflare 控制台中获取您的 API Token 和 Account ID：
    - 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
    - 转到 "My Profile" > "API Tokens"
    - 创建一个自定义令牌，权限包括 "Zone:Zone:Read" 和 "Account:Cloudflare Pages:Edit"
+   - 获取您的 Account ID（可在 Cloudflare Dashboard 右侧边栏找到）
 3. 在 GitHub 仓库设置中添加以下 Secrets：
    - `CLOUDFLARE_API_TOKEN`: 您的 Cloudflare API Token
+   - `CLOUDFLARE_ACCOUNT_ID`: 您的 Cloudflare Account ID
 4. 推送代码到 main 分支，GitHub Actions 将自动部署到 Cloudflare Pages
+
+注意：如果之前使用过旧版本的部署配置，可能需要清除 GitHub Actions 缓存或重新触发构建。
 
 ### 方法二：手动部署
 
@@ -44,13 +48,15 @@
    ```bash
    npm install -g wrangler
    ```
+
 2. 登录 Cloudflare：
    ```bash
    wrangler login
    ```
+
 3. 部署项目：
    ```bash
-   wrangler pages deploy . --project-name xianyuziyuan
+   npx wrangler pages deploy . --project-name xianyuziyuan --commit-dirty=true
    ```
 
 ### 方法三：通过 Cloudflare Dashboard
