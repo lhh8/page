@@ -1,0 +1,6 @@
+{
+  "build_command": "",
+  "build_output_dir": ".",
+  "install_command": "",
+  "deployment_target": "pages"
+}
