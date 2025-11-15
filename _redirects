@@ -1,4 +1,5 @@
 # 重定向规则
 # 将特定路径重定向到 index.html (SPA 支持)
 /api/*    /api/:splat    200
-/*        /index.html   200
+# 只对非文件路径重定向到 index.html
+/([^/.]+)$    /index.html   200
